@@ -12,9 +12,16 @@
 		9C57A8FF1F84F4AD00D9E0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C57A8FD1F84F4AD00D9E0BE /* Main.storyboard */; };
 		9C57A9011F84F4AD00D9E0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C57A9001F84F4AD00D9E0BE /* Assets.xcassets */; };
 		9C57A9041F84F4AD00D9E0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C57A9021F84F4AD00D9E0BE /* LaunchScreen.storyboard */; };
+		9C57A90C1F850B9100D9E0BE /* F7433FF5-85E4-4060-AA92-0CD88953FCE8-3639-000003E75F5CD29F_file.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9C57A90B1F850A3400D9E0BE /* F7433FF5-85E4-4060-AA92-0CD88953FCE8-3639-000003E75F5CD29F_file.gif */; };
+		9C798A9C1F862F3C00664157 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C798A9B1F862F3C00664157 /* LoginViewController.swift */; };
+		9C798A9D1F86337E00664157 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C798A991F862B0F00664157 /* FBSDKCoreKit.framework */; };
+		9C798A9E1F86338100664157 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C798A981F862B0F00664157 /* FBSDKLoginKit.framework */; };
+		E0ECF51B9EF7A854F9ED3820 /* Pods_LociMind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E6637972F930C21149DCE9 /* Pods_LociMind.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17E6637972F930C21149DCE9 /* Pods_LociMind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LociMind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F3EFFFEFC0CC75CBD67697 /* Pods-LociMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LociMind.release.xcconfig"; path = "Pods/Target Support Files/Pods-LociMind/Pods-LociMind.release.xcconfig"; sourceTree = "<group>"; };
 		9C57A8F61F84F4AD00D9E0BE /* LociMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LociMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C57A8F91F84F4AD00D9E0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C57A8FB1F84F4AD00D9E0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,12 @@
 		9C57A9001F84F4AD00D9E0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C57A9031F84F4AD00D9E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C57A9051F84F4AD00D9E0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C57A90B1F850A3400D9E0BE /* F7433FF5-85E4-4060-AA92-0CD88953FCE8-3639-000003E75F5CD29F_file.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "F7433FF5-85E4-4060-AA92-0CD88953FCE8-3639-000003E75F5CD29F_file.gif"; sourceTree = "<group>"; };
+		9C798A981F862B0F00664157 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9C798A991F862B0F00664157 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9C798A9A1F862C5400664157 /* LociMind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LociMind.entitlements; sourceTree = "<group>"; };
+		9C798A9B1F862F3C00664157 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D827BEB61D717D0F8E45C325 /* Pods-LociMind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LociMind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LociMind/Pods-LociMind.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0ECF51B9EF7A854F9ED3820 /* Pods_LociMind.framework in Frameworks */,
+				9C798A9D1F86337E00664157 /* FBSDKCoreKit.framework in Frameworks */,
+				9C798A9E1F86338100664157 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2118594DD715B2BF7F172128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D827BEB61D717D0F8E45C325 /* Pods-LociMind.debug.xcconfig */,
+				73F3EFFFEFC0CC75CBD67697 /* Pods-LociMind.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9C57A8ED1F84F4AD00D9E0BE = {
 			isa = PBXGroup;
 			children = (
 				9C57A8F81F84F4AD00D9E0BE /* LociMind */,
 				9C57A8F71F84F4AD00D9E0BE /* Products */,
+				2118594DD715B2BF7F172128 /* Pods */,
+				AD05B58061B79A341E717B96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,27 @@
 		9C57A8F81F84F4AD00D9E0BE /* LociMind */ = {
 			isa = PBXGroup;
 			children = (
+				9C798A9A1F862C5400664157 /* LociMind.entitlements */,
+				9C57A90B1F850A3400D9E0BE /* F7433FF5-85E4-4060-AA92-0CD88953FCE8-3639-000003E75F5CD29F_file.gif */,
 				9C57A8F91F84F4AD00D9E0BE /* AppDelegate.swift */,
 				9C57A8FB1F84F4AD00D9E0BE /* ViewController.swift */,
 				9C57A8FD1F84F4AD00D9E0BE /* Main.storyboard */,
+				9C798A9B1F862F3C00664157 /* LoginViewController.swift */,
 				9C57A9001F84F4AD00D9E0BE /* Assets.xcassets */,
 				9C57A9021F84F4AD00D9E0BE /* LaunchScreen.storyboard */,
 				9C57A9051F84F4AD00D9E0BE /* Info.plist */,
 			);
 			path = LociMind;
+			sourceTree = "<group>";
+		};
+		AD05B58061B79A341E717B96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C798A991F862B0F00664157 /* FBSDKCoreKit.framework */,
+				9C798A981F862B0F00664157 /* FBSDKLoginKit.framework */,
+				17E6637972F930C21149DCE9 /* Pods_LociMind.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C57A9081F84F4AD00D9E0BE /* Build configuration list for PBXNativeTarget "LociMind" */;
 			buildPhases = (
+				16052AE52B9EA8093270890A /* [CP] Check Pods Manifest.lock */,
 				9C57A8F21F84F4AD00D9E0BE /* Sources */,
 				9C57A8F31F84F4AD00D9E0BE /* Frameworks */,
 				9C57A8F41F84F4AD00D9E0BE /* Resources */,
+				E9382525DD7CF323B8307310 /* [CP] Embed Pods Frameworks */,
+				8FC8D5CF6EC3B51490A35BC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +140,11 @@
 					9C57A8F51F84F4AD00D9E0BE = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,16 +174,66 @@
 				9C57A9041F84F4AD00D9E0BE /* LaunchScreen.storyboard in Resources */,
 				9C57A9011F84F4AD00D9E0BE /* Assets.xcassets in Resources */,
 				9C57A8FF1F84F4AD00D9E0BE /* Main.storyboard in Resources */,
+				9C57A90C1F850B9100D9E0BE /* F7433FF5-85E4-4060-AA92-0CD88953FCE8-3639-000003E75F5CD29F_file.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16052AE52B9EA8093270890A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC8D5CF6EC3B51490A35BC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LociMind/Pods-LociMind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9382525DD7CF323B8307310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LociMind/Pods-LociMind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C57A8F21F84F4AD00D9E0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C798A9C1F862F3C00664157 /* LoginViewController.swift in Sources */,
 				9C57A8FC1F84F4AD00D9E0BE /* ViewController.swift in Sources */,
 				9C57A8FA1F84F4AD00D9E0BE /* AppDelegate.swift in Sources */,
 			);
@@ -272,13 +370,27 @@
 		};
 		9C57A9091F84F4AD00D9E0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D827BEB61D717D0F8E45C325 /* Pods-LociMind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LociMind/LociMind.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXQTGFHSR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Parse\"",
+					"~/Documents/FacebookSDK",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Parse\"",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = LociMind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = darkkuma.LociMind;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkkuma.slogram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +399,21 @@
 		};
 		9C57A90A1F84F4AD00D9E0BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F3EFFFEFC0CC75CBD67697 /* Pods-LociMind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LociMind/LociMind.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXQTGFHSR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Parse\"",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = LociMind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = darkkuma.LociMind;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkkuma.slogram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

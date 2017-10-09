@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bxR-2Q-oay">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Courier.ttc">
+            <string>Courier</string>
+        </array>
+        <array key="CourierNewBold.ttf">
+            <string>CourierNewPS-BoldMT</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LociMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +30,66 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1666" y="116"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="JMl-Vj-GAZ">
+            <objects>
+                <viewController id="bxR-2Q-oay" customClass="LoginViewController" customModule="LociMind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iCC-q3-4fa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1f1-p3-tG9">
+                                <rect key="frame" x="0.0" y="518" width="375" height="75"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="XiN-Ar-ijF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="25"/>
+                                <state key="normal" title="Start Slowgram">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeM-S0-Y0K">
+                                <rect key="frame" x="0.0" y="592" width="375" height="75"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="hJl-MD-ReI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="25"/>
+                                <state key="normal" title="Login ">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slowgram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezm-Ik-MD8">
+                                <rect key="frame" x="65" y="179" width="245" height="51"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="51"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WeM-S0-Y0K" firstAttribute="centerX" secondItem="iCC-q3-4fa" secondAttribute="centerX" id="4Ri-ov-lvl"/>
+                            <constraint firstItem="1f1-p3-tG9" firstAttribute="centerX" secondItem="iCC-q3-4fa" secondAttribute="centerX" id="A0E-PN-UY2"/>
+                            <constraint firstItem="Ezm-Ik-MD8" firstAttribute="top" secondItem="bat-6S-iR5" secondAttribute="top" constant="159" id="IuU-hJ-YP4"/>
+                            <constraint firstItem="1f1-p3-tG9" firstAttribute="leading" secondItem="bat-6S-iR5" secondAttribute="leading" id="K9i-Pq-JLr"/>
+                            <constraint firstItem="WeM-S0-Y0K" firstAttribute="trailing" secondItem="bat-6S-iR5" secondAttribute="trailing" id="Om3-e9-ite"/>
+                            <constraint firstItem="Ezm-Ik-MD8" firstAttribute="centerX" secondItem="iCC-q3-4fa" secondAttribute="centerX" id="YfF-9s-HVb"/>
+                            <constraint firstItem="1f1-p3-tG9" firstAttribute="trailing" secondItem="bat-6S-iR5" secondAttribute="trailing" id="ZbK-fJ-bzT"/>
+                            <constraint firstItem="bat-6S-iR5" firstAttribute="trailing" secondItem="Ezm-Ik-MD8" secondAttribute="trailing" constant="65" id="azj-I2-iPj"/>
+                            <constraint firstItem="WeM-S0-Y0K" firstAttribute="bottom" secondItem="bat-6S-iR5" secondAttribute="bottom" id="fbZ-eh-y84"/>
+                            <constraint firstItem="WeM-S0-Y0K" firstAttribute="leading" secondItem="bat-6S-iR5" secondAttribute="leading" id="hIU-lq-0le"/>
+                            <constraint firstItem="Ezm-Ik-MD8" firstAttribute="leading" secondItem="bat-6S-iR5" secondAttribute="leading" constant="65" id="lSe-7d-Dnx"/>
+                            <constraint firstItem="WeM-S0-Y0K" firstAttribute="top" secondItem="1f1-p3-tG9" secondAttribute="bottom" constant="-1" id="qRU-DD-8r5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bat-6S-iR5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZI-oG-SKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.60000000000002" y="116.49175412293854"/>
         </scene>
     </scenes>
 </document>
